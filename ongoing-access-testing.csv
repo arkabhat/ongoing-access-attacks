@@ -1,0 +1,76 @@
+Access Route Type,Service,Stepthrough Config Works,Disrupts User Access?,Notes on disruption,Sends Notification?,Notification Accurate?,Notes on Accuracy,Notification has Guidance?,Guidance revokes default access route?,Guidance blocks access route?,Guidance Notes,Password change blocks access route?,Ongoing access attack successful?
+1 time challenge to primary contact,adobe.com,Y,Y,,Y,Y,,N,N,N,,N,N
+1 time challenge to primary contact,apple.com,Y,Y,,Y,Y,,Y,Y,N,Simply asks to change password on device,N,N
+1 time challenge to primary contact,apple.com,Y,Y,Password change,Y,Y,,Y,Y,N,Simply asks to change password on device,N,N
+1 time challenge to primary contact,bit.ly,Y,Y,,N,NA,,NA,NA,N,,N,N
+1 time challenge to primary contact,cloudflare.com,Y,Y,,N,NA,,NA,NA,N,,N,N
+1 time challenge to primary contact,digicert.com,Y,Y,,Y,Y,,N,NA,N,,N,N
+1 time challenge to primary contact,facebook.com,Y,Y,,Y,Y,,Y,Y,N,,N,N
+1 time challenge to primary contact,fastly.net,Y,Y,,NA,NA,,NA,NA,NA,,N,N
+1 time challenge to primary contact,github.com,Y,Y,,Y,Y,,Y,N,Y,,N,N
+1 time challenge to primary contact,instagram.com,Y,N,,Y,Y,"Notification will always send to original primary email, even if it has been changed multiple times.",Y,Y,N,Just tells you to review contacts in accounts center.,N,Y
+1 time challenge to primary contact,linkedin.com,Y,Y,Invalidates sessions,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to primary contact,microsoft.com,Y,Y,,Y,Y,,Y,N,N,"Redirects to a security log. Says to click on activity that is suspicious. However, if activity is on a known network or known session, or remediation wizard was already used, then it won't let you remediate again. This is a common scenario in interpersonal abuse settings.",N,N
+1 time challenge to primary contact,pinterest.com,Y,Y,,Y,Y,,Y,Y,N,,N,N
+1 time challenge to primary contact,roblox.com,Y,Y,,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to primary contact,spotify.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to primary contact,twitter.com,Y,Y,,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to primary contact,vimeo.com,Y,Y,,Y,Y,,N,NA,NA,,N,N
+1 time challenge to primary contact,wikipedia.com,Y,Y,,Y,Y,,N,NA,NA,,N,N
+1 time challenge to primary contact,wordpress.com,Y,Y,,Y,Y,,N,NA,NA,,N,N
+1 time challenge to primary contact,yahoo.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to alternate contact,adobe.com,Y,Y,Invalidates sessions,Y,Y,,N,NA,N,,N,N
+1 time challenge to alternate contact,facebook.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to alternate contact,github.com,Y,Y,,Y,Y,,Y,N,Y,Provides link,N,N
+1 time challenge to alternate contact,google.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to alternate contact,instagram.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+1 time challenge to alternate contact,linkedin.com,Y,Y,Invalidates sessions,Y,Y,,Y,Y,Y,,N,N
+1 time challenge to alternate contact,microsoft.com,Y,Y,,Y,Y,,Y,N,N,,N,N
+1 time challenge to alternate contact,twitter.com,Y,Y,,Y,Y,,Y,Y,N,"It says change your phone number but then redirects to devices page --- incorrect assumption that all phone numbers are from devices, even tho VOIP is accepted.",N,N
+1 time challenge to alternate contact,yahoo.com,Y,N,,Y,Y,,Y,Y,Y,Just gives a link to the security page.,N,N
+1 time challenge to external contact,apple.com,Y,Y,,N,NA,,NA,NA,N,,N,N
+1 time challenge to external contact,google.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+1 time challenge to external contact,microsoft.com,Y,N,,Y,N,,Y,N,N,,N,Y
+1 time challenge to external contact,pinterest.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+1 time challenge to external contact,roblox.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+1 time challenge to external contact,yahoo.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+SSO access with any account,adobe.com,Y,N,,Y,Y,,N,NA,N,,N,Y
+SSO access with any account,github.com,Y,N,,Y,Y,,Y,N,N,,N,Y
+SSO access with any account,facebook.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+SSO access with any account,instagram.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+SSO access with any account,pinterest.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+SSO access with any account,spotify.com,Y,N,,N,NA,,NA,NA,N,,N,Y
+SSO access with any account,wordpress.com,Y,N,,N,NA,,NA,NA,N,,N,Y
+SSO access with primary contact,adobe.com,Y,N,,Y,Y,,N,NA,N,,N,Y
+SSO access with primary contact,bit.ly,N,N,,N,NA,,NA,NA,Y,,N,N
+SSO access with primary contact,cloudflare.com,N,N,,N,NA,,NA,NA,Y,,N,N
+SSO access with primary contact,facebook.com,N,N,,Y,Y,,Y,Y,N,,N,N
+SSO access with primary contact,github.com,N,N,,Y,Y,,Y,N,Y,,N,N
+SSO access with primary contact,linkedin.com,N,N,,Y,Y,,Y,N,N,,N,N
+SSO access with primary contact,pinterest.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+SSO access with primary contact,twitter.com,N,N,,Y,Y,,Y,Y,N,,N,N
+SSO access with primary contact,vimeo.com,Y,N,,Y,N,,N,NA,N,,N,Y
+SSO access with primary contact,wordpress.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+SSO access with primary contact,yahoo.com,N,N,,NA,NA,,NA,NA,N,,N,N
+SSO access with alternate contact,linkedin.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+SSO access with alternate contact,github.com,Y,N,,Y,Y,,Y,N,Y,,N,N
+SSO access with alternate contact,yahoo.com,Y,N,,Y,Y,,Y,Y,Y,,N,N
+Passkey access,adobe.com,Y,N,,N,NA,,NA,NA,N,,N,Y
+Passkey access,apple.com,Y,N,,N,NA,,NA,NA,N,,N,Y
+Passkey access,github.com,Y,N,,Y,Y,,Y,N,N,,N,Y
+Passkey access,google.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+Passkey access,linkedin.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+Passkey access,microsoft.com,Y,N,,Y,Y,,Y,N,N,,N,Y
+Passkey access,roblox.com,Y,N,,N,Y,,Y,Y,N,,N,Y
+Passkey access,twitter.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+Passkey access,yahoo.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
+Saved bearer token access,adobe.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+Saved bearer token access,apple.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+Saved bearer token access,google.com,Y,N,,Y,N,,Y,Y,N,,N,Y
+Saved bearer token access,instagram.com,Y,N,,Y,N,,Y,Y,Y,,Y,N
+Saved bearer token access,linkedin.com,Y,N,,Y,N,,Y,Y,N,,N,Y
+Saved bearer token access,microsoft.com,Y,N,,N,NA,,NA,NA,N,,Y,N
+Saved bearer token access,wikipedia.org,Y,N,,N,NA,,NA,NA,N,,Y,N
+Saved bearer token access,yahoo.com,Y,N,,Y,N,,Y,Y,Y,,Y,N
+Recovery code access,microsoft.com,Y,Y,,N,NA,,NA,NA,N,,N,N
+Old password access,google.com,Y,N,,Y,Y,,Y,Y,N,,N,Y
